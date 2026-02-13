@@ -34,7 +34,7 @@ export const categoryConfig = {
     asphalt: {
         title: "Asphalt Pavers",
         description: "Gainwells Asphalt and Concrete Batching Plants deliver reliable, high-performance solutions for modern infrastructure projects, ensuring precision mixing, durability, efficiency, and consistent quality for road construction and concrete production worldwide",
-        backgroundImage: "/backhostrip.jpg",
+        backgroundImage: "/Asphalt.png",
         category: "Asphalt",
         layoutType: "standard",
         showAttachments: false,
@@ -44,7 +44,7 @@ export const categoryConfig = {
     concrete: {
         title: "Concrete & Accessories ",
         description: "Gainwells Concrete Batching Plants and accessories provide efficient, precise, and durable solutions for high-quality concrete production, supporting infrastructure projects with advanced technology, reliability, and seamless performance across diverse construction requirements.",
-        backgroundImage: "/backhostrip.jpg",
+        backgroundImage: "/Concreat.png",
         category: "Concrete",
         layoutType: "standard",
         showAttachments: true,

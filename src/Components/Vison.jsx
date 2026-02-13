@@ -7,7 +7,7 @@ import { useInView } from 'react-intersection-observer';
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
 import {Comments} from '../Hooks/Attachements'	
-import Dealers from './Dealers';
+
 
 function Vison() {
 
@@ -257,23 +257,11 @@ function Vison() {
 
                 </Carousel>
 
-                <Dealers />
-
-
-
+               
 
             </main>
 
-
-
-
-
         </>
-
-
-
-
-
 
 
     )

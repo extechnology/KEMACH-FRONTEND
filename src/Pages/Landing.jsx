@@ -12,7 +12,7 @@ function Landing() {
 
 
     return (
- 
+
 
         <>
 
@@ -53,7 +53,11 @@ function Landing() {
 
 
                 {/* Dealers */}
+                <div>
 
+                    <Dealers />
+               
+                </div>
 
 
             </section>
