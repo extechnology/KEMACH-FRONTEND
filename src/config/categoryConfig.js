@@ -127,7 +127,8 @@ export const categoryConfig = {
                 filterKey: "sub_category",
                 filterValue: "INDO_POWER_CONVENTIONAL_PICK_N_CARRY_CRANES"
             }
-        ]
+        ],
+        useProductLink: true,
     },
 
 };

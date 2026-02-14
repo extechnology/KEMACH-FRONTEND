@@ -41,7 +41,7 @@ function Footer() {
                             <li><a className='text-white'>Okkal Post, Ernakulam – 683550</a></li>
                             <li><a href="https://wa.me/+919778412529?text=Hi" target='_blank'> WhatsApp: +91 9778412529</a></li>
                             <li><a href="mailto:info@kemach.in" target='_blank'>Email Id: info@kemach.in </a></li>
-                            
+
                         </ul>
 
 
@@ -50,10 +50,10 @@ function Footer() {
 
 
                     <div className="col-md-4">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1526098.0854557562!2d74.82051070699859!3d11.256112812635035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65125d7864b43%3A0xc0f479528c814a41!2sBobcat%20Showroom!5e1!3m2!1sen!2sin!4v1726641568963!5m2!1sen!2sin"
-                            width="100%" height="100%" style={{ border: 'none' }}  loading="lazy"
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3542.148469328159!2d75.8717512!3d11.1727134!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65b8d41ee558d%3A0x5cc02bdd721c92b0!2sKEMACH%20EQUIPMENTS%20Pvt%20Ltd%20(bobcat%20athrsd.dealer)!5e1!3m2!1sen!2sin!4v1771064686441!5m2!1sen!2sin" width="100%" height="100%" style={{ border: 'none' }} loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"></iframe>
+
                     </div>
 
 
@@ -66,24 +66,24 @@ function Footer() {
 
 
                         <div className=' col-md-6 social d-flex justify-content-between flex-column align-items-center'>
-                        <h4>Follow Us</h4>
-                        <ul className="d-flex gap-3 p-0">
+                            <h4>Follow Us</h4>
+                            <ul className="d-flex gap-3 p-0">
 
-                            <li><a href='https://www.facebook.com/kemachequipmentsin/' ><i className="fa-brands fa-facebook"></i></a></li>
-                            <li><a href='https://www.instagram.com/kemachequipment/' ><i className="fa-brands fa-instagram"></i></a></li>
-                            <li><a href='https://x.com/kemachequipmen' ><i className="fa-brands fa-x-twitter"></i></a></li>
-                            <li><a href='https://www.linkedin.com/company/kemachequipments/?viewAsMember=true' ><i className="fa-brands fa-linkedin"></i></a></li>
-                            <li><a href='https://www.youtube.com/@Kemachequipments' ><i className="fa-brands fa-youtube"></i></a></li>
-                            <li><a href='https://in.pinterest.com/kemachequipments/' ><i className="fa-brands fa-pinterest"></i></a></li>
-                        </ul>
-                        <div class="d-flex justify-content-center text-white align-items-center flex-column" >
-                            <p class="text-center mt-2">© {new Date().getFullYear()} Kemach All Rights Reserved</p>
-                            <p class="text-center "> <Link to={"/terms"} class=" text-white">Terms & Conditions</Link><span> I </span><Link to={"/policy"} class=" text-white">Privacy Policy</Link></p>
-                        </div>
+                                <li><a href='https://www.facebook.com/kemachequipmentsin/' ><i className="fa-brands fa-facebook"></i></a></li>
+                                <li><a href='https://www.instagram.com/kemachequipment/' ><i className="fa-brands fa-instagram"></i></a></li>
+                                <li><a href='https://x.com/kemachequipmen' ><i className="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href='https://www.linkedin.com/company/kemachequipments/?viewAsMember=true' ><i className="fa-brands fa-linkedin"></i></a></li>
+                                <li><a href='https://www.youtube.com/@Kemachequipments' ><i className="fa-brands fa-youtube"></i></a></li>
+                                <li><a href='https://in.pinterest.com/kemachequipments/' ><i className="fa-brands fa-pinterest"></i></a></li>
+                            </ul>
+                            <div class="d-flex justify-content-center text-white align-items-center flex-column" >
+                                <p class="text-center mt-2">© {new Date().getFullYear()} Kemach All Rights Reserved</p>
+                                <p class="text-center "> <Link to={"/terms"} class=" text-white">Terms & Conditions</Link><span> I </span><Link to={"/policy"} class=" text-white">Privacy Policy</Link></p>
+                            </div>
                         </div>
                     </div>
 
-                    
+
 
 
                 </div>

@@ -280,41 +280,50 @@ function CategoryPage({ categoryKey }) {
 
 
     // Render product card for multi-section layouts (carousel items)
-    const renderCarouselProductCard = (item, index) => (
-
-        <div className="col mb-3 me-3 h-100" key={index}>
-
-            <a
-                href="https://wa.me/+919778412529?text=Hi"
-                target="_blank"
-                className="text-decoration-none"
-            >
-
-                <div className="card h-100" data-aos="fade-down">
-
-                    <img src={item.image} className="img-fluid" alt="..." loading="lazy" />
-
-                    <div className="card-body">
-
-                        <h5 className="card-title">{item.name}</h5>
-                        <p className="card-text">{item.sub_description}</p>
-
-                        <Link
-                            to={"/book"}
-                            className="d-flex justify-content-center align-items-center btn"
-                        >
-                            Enquire Now <i className="fa-solid ps-1 fa-right-long"></i>
-                        </Link>
-
-                    </div>
-
+    const renderCarouselProductCard = (item, index) => {
+        if (config?.useProductLink) {
+            return (
+                <div className="col mb-3 me-3 h-100" key={index}>
+                    <Link to={`/pro/${item.id}`} className="text-decoration-none">
+                        <div className="card h-100" data-aos="fade-down">
+                            <img src={item.image} className="img-fluid" alt="..." loading="lazy" />
+                            <div className="card-body">
+                                <h5 className="card-title">{item.name}</h5>
+                                <p className="card-text">{item.sub_description}</p>
+                                <div className="d-flex justify-content-center align-items-center btn">
+                                    View Details <i className="fa-solid ps-1 fa-right-long"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
                 </div>
+            );
+        }
 
-            </a>
-
-        </div>
-
-    );
+        return (
+            <div className="col mb-3 me-3 h-100" key={index}>
+                <a
+                    href="https://wa.me/+919778412529?text=Hi"
+                    target="_blank"
+                    className="text-decoration-none"
+                >
+                    <div className="card h-100" data-aos="fade-down">
+                        <img src={item.image} className="img-fluid" alt="..." loading="lazy" />
+                        <div className="card-body">
+                            <h5 className="card-title">{item.name}</h5>
+                            <p className="card-text">{item.sub_description}</p>
+                            <Link
+                                to={"/book"}
+                                className="d-flex justify-content-center align-items-center btn"
+                            >
+                                Enquire Now <i className="fa-solid ps-1 fa-right-long"></i>
+                            </Link>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        );
+    };
 
 
 

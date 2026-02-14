@@ -7,6 +7,8 @@ function Dealers() {
         <h4> We are an authorized dealer</h4>
 
         <img src="./bobcat-logo.jpg" width={'200px'} className='mt-3 md-mt-0' alt="" />
+        <img src="./LOGO GAINWELL 417X417 PNG.png" width={'200px'} alt="" />
+        <img src="./LOGO INDO POWER 417X417 PNG.png" width={'200px'} alt="" />
         <img src="./indus-logo.png" width={'200px'} alt="" />
         <img src="./TRUECOMP-logo.png" width={'200px'} alt="" />
 
